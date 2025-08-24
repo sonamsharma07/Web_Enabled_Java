@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Session Demo</title>
+</head>
+<body>
+    <h2>Session Handling Demo</h2>
+
+    <form action="SessionServlet" method="get">
+        <input type="submit" value="Visit Page">
+    </form>
+    <br>
+    <form action="SessionServlet" method="get">
+        <input type="hidden" name="destroy" value="true">
+        <input type="submit" value="Destroy Session">
+    </form>
+</body>
+</html>

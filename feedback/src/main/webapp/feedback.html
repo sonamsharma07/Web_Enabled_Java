@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Student Feedback Form</h2>
+<form action="FeedbackServlet" method="post">
+Nick Name: <input type="text" name="name" required><br><br>
+Course: <input type="text" name="course" required><br><br>
+Paper Name: <input type="text" name="pname" required><br><br>
+Paper Code: <input type="text" name="pcode" required><br><br>
+Rating:
+<select name="rating" required>
+<option value="Excellent">Excellent</option>
+<option value="Good">Good</option>
+<option value="Average">Average</option>
+<option value="Poor">Poor</option>
+</select><br><br>
+Comments:<br>
+<textarea name="comments" rows="5" cols="40"></textarea><br><br>
+<input type="submit" value="Submit Feedback">
+</form>
+</body>
+</html>
